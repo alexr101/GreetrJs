@@ -17,30 +17,48 @@ Mini Javascript library that displays customized greetings to the user in the la
 
 After initializing the greeting object you can use this to access the following methods.
 
-Returns full name of user
-
+Returns a string containing the full name of user<br/>
+	
 	greeting.fullName() 
 
-Returns a greeting string for the user<br />
+Returns a string containing a personalized greeting to the user 
+
 	greeting.greeting(); 
 
-Returns a formal greeting string for the user<br />
+Returns a string containing a personalized formal greeting to the user
+
 	greeting.formalGreeting();
 
-Returns and also logs the full user's name and language of choice to the console<br />
+Returns string containing and also console logs the user's full name and language of choice
+
 	greeting.logMessage();
 
-Updates the DOM element of choice<br />
-The formal boolean determines whether the greeting is formal or not<br />
+Updates a DOM element with a personalized greeting text to the user. It includes a second parameter to determine whether the greeting should be formal.
+
 	greeting.updateHTML(selector, formal);
+**selector**(required)<br/>
+String. Accepts a CSS Id selector. Jquery is supported. Including the "#" symbol is optional.
 
-Change or set the language<br />
+**formal**(required)<br/>
+Boolean. Determines whether the greeting returned will be formal or casual. True will return formal.
+
+Change or set the language for the user object
+
 	greeting.setLang(language);
+**language**(required)<br/>
+String. Determines new user language. (See Supported Languages section for a list of accepted parameters).
 
-Edit the first name<br />
+Set up a new first name for the user object
+
 	greeting.editFirstName(newName);
+	
+**newName**(required)<br/>
+String. Determines a new user first name.
 
-Edit the last name<br />
+Set up a new last name for the user object
+
 	greeting.editLastName(newLastName)
+**lastName**(required)<br/>
+String. Determines a new user last name.
 
 	
