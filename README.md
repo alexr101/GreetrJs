@@ -36,29 +36,29 @@ Returns string containing and also console logs the user's full name and languag
 Updates a DOM element with a personalized greeting text to the user. It includes a second parameter to determine whether the greeting should be formal.
 
 	greeting.updateHTML(selector, formal);
-**selector**(required)<br/>
-String. Accepts a CSS Id selector. Jquery is supported. Including the "#" symbol is optional.
+  **selector**(required)<br/>
+  String. Accepts a CSS Id selector. Jquery is supported. Including the "#" symbol is optional.
 
-**formal**(required)<br/>
-Boolean. Determines whether the greeting returned will be formal or casual. True will return formal.
+  **formal**(required)<br/>
+  Boolean. Determines whether the greeting returned will be formal or casual. True will return formal.
 
 Change or set the language for the user object
 
 	greeting.setLang(language);
-**language**(required)<br/>
-String. Determines new user language. (See Supported Languages section for a list of accepted parameters).
+  **language**(required)<br/>
+  String. Determines new user language. (See Supported Languages section for a list of accepted parameters).
 
 Set up a new first name for the user object
 
 	greeting.editFirstName(newName);
 	
-**newName**(required)<br/>
-String. Determines a new user first name.
+  **newName**(required)<br/>
+  String. Determines a new user first name.
 
 Set up a new last name for the user object
 
 	greeting.editLastName(newLastName)
-**lastName**(required)<br/>
-String. Determines a new user last name.
+  **lastName**(required)<br/>
+  String. Determines a new user last name.
 
 	
