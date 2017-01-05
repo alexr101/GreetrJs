@@ -18,28 +18,29 @@ Mini Javascript library that displays customized greetings to the user in the la
 After initializing the greeting object you can use this to access the following methods.
 
 Returns full name of user
-	greeting.fullName();
 
-Returns a greeting string for the user
+	greeting.fullName() 
+
+Returns a greeting string for the user<br />
 	greeting.greeting(); 
 
-Returns a formal greeting string for the user
+Returns a formal greeting string for the user<br />
 	greeting.formalGreeting();
 
-Returns and also logs the full user's name and language of choice to the console
+Returns and also logs the full user's name and language of choice to the console<br />
 	greeting.logMessage();
 
-Updates the DOM element of choice
-The formal boolean determines whether the greeting is formal or not
+Updates the DOM element of choice<br />
+The formal boolean determines whether the greeting is formal or not<br />
 	greeting.updateHTML(selector, formal);
 
-Change or set the language
+Change or set the language<br />
 	greeting.setLang(language);
 
-Edit the first name
+Edit the first name<br />
 	greeting.editFirstName(newName);
 
-Edit the last name
+Edit the last name<br />
 	greeting.editLastName(newLastName)
 
 	
