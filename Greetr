@@ -1,0 +1,23 @@
+//Safe code
+(function(global, $){
+
+	var Greeter = function(firstName, lastName, language){
+
+		return new Greeter.init(firstName, lastName, language );
+	};
+
+	Greeter.init = function(firstName, lastName, language){
+		return {
+			firstName: firstName,
+			lastName: lastName,
+			language: language
+		};
+	};
+
+	global.G$ = Greeter;
+
+	return global;
+
+})(window, jQuery);
+
+
